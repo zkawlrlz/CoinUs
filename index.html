@@ -1,0 +1,626 @@
+<!DOCTYPE HTML>  
+<html lang="ko-KR">  
+<head>  
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>CoinUs</title>
+    <meta name="description" content="CoinUs">
+    <meta name="keywords" content="CoinUs">
+    <meta name="author" content="CoinUs">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/coinus.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/greensock/gsap.min.js"></script>
+</head>  
+<body>
+    <!--begin::page-header-->
+    <header class="page-header">
+        <div class="header__component">
+            <!--header__logo-->
+            <div class="header__logo">
+                <h1 class="logo">
+                    <a href="" class="logo__link">
+                        <img src="./assets/media/img/logo_dark.svg" alt="로고">
+                    </a>
+                </h1>
+            </div>
+            <!--header__actions-->
+            <div class="header__actions">
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a href="">
+                            <span class="text rajdhani">About</span>
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="">
+                            <span class="text rajdhani">Project</span>
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="">
+                            <span class="text rajdhani">Support</span>
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="">
+                            <span class="text rajdhani">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="header__search">
+                    <button class="header__search-btn">
+                        <span class="text rajdhani">Block Search</span>
+                    </button>
+                </div>
+                <div class="header__app">
+                    <button class="header__app-btn">
+                        <span class="text">앱 다운로드</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end::page-header-->
+    <!--begin::mobile-header(add)-->
+    <div class="mobile-header">
+        <div class="header__component">
+            <!--header__logo-->
+            <div class="header__logo">
+                <h1 class="logo">
+                    <a href="" class="logo__link">
+                        <img src="./assets/media/img/logo_dark.svg" alt="로고">
+                    </a>
+                </h1>
+            </div>
+            <button type="button" class="mobile-header__btn">
+                <i class="bar-top"></i>
+                <i class="bar-bottom"></i>
+            </button>
+        </div>
+        <!--header__actions-->
+        <div class="header__actions">
+            <ul class="header__menu">
+                <li class="header__menu-item">
+                    <a href="">
+                        <span class="text rajdhani">About</span>
+                    </a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="">
+                        <span class="text rajdhani">Project</span>
+                    </a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="">
+                        <span class="text rajdhani">Support</span>
+                    </a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="">
+                        <span class="text rajdhani">Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="header__search">
+                <button class="header__search-btn">
+                    <span class="text rajdhani">Block Search</span>
+                </button>
+            </div>
+            <div class="header__app">
+                <button class="header__app-btn">
+                    <span class="text">앱 다운로드</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--end::mobile-header(add)-->
+    <!--begin::page-container-->
+    <main class="page-container">
+        <!--begin::section-major-->
+        <section class="section section-major">
+            <div class="section__component">
+                <header class="section__header">
+                    <h2 class="title">암호화폐 지갑의 <br/>새로운 시작</h2>
+                    <p class="subtext">자산관리 플랫폼 CoinUs 3.0</p>
+                </header>
+                <div class="major__obj">
+                    <img src="./assets/media/img/obj_major.svg" alt="">
+                </div>
+                <div class="apps">
+                    <a href="" target="_blank" class="app__link">
+                        <img class="app__logo" src="./assets/media/img/icon_app_google.svg">
+                        <span class="app__text rajdhani">Google Play</span>
+                    </a>
+                    <a href="" target="_blank" class="app__link">
+                        <img class="app__logo" src="./assets/media/img/icon_app_apple.svg">
+                        <span class="app__text rajdhani">App Store</span>
+                    </a>
+                    <a href="" target="_blank" class="app__link app__link--mobile">
+                        <span class="app__text rajdhani">앱 다운로드</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--end::section-major-->
+        <!--begin::section-status-->
+        <section class="section section-status" id="our-data">
+            <div class="section__component">
+                <header class="section__header">
+                    <h3 class="title">16만 이상의 유저들이 <br/>코인어스 지갑을 사용하고 있습니다</h3>
+                </header>
+                <div class="status__list">
+                    <article class="status__item">
+                        <header class="status__header">
+                            <h4>총 지갑 수</h4>
+                        </header>
+                        <div class="status__content" id="status__wallet">
+                            <span class="text rajdhani">0</span><span class="rajdhani"> K+</span>
+                        </div>
+                    </article>
+                    <article class="status__item">
+                        <header class="status__header">
+                            <h4>총 트랜젝션 수</h4>
+                        </header>
+                        <div class="status__content" id="status__transaction">
+                            <span class="text rajdhani">0</span><span class="rajdhani"> B+</span>
+                        </div>
+                    </article>
+                    <article class="status__item">
+                        <header class="status__header">
+                            <h4>누적 입출금액</h4>
+                        </header>
+                        <div class="status__content" id="status__deposit">
+                            <span class="text rajdhani">0</span><span class="rajdhani"> B+</span>
+                        </div>
+                    </article>
+                    <article class="status__item">
+                        <header class="status__header">
+                            <h4>글로벌 국가</h4>
+                        </header>
+                        <div class="status__content" id="status__global">
+                            <span class="text rajdhani">0</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="status__bg">
+                <img src="./assets/media/img/bg_feature.png" alt="">
+            </div>
+        </section>
+        <!--end::section-status-->
+        <!--begin::section-feature-->
+        <section class="section section-feature">
+            <div class="section__component">
+                <div class="section__feature">
+                    <ul class="feature_tabs">
+                        <li class="feature_tabs-item feature_tabs-item--active">
+                            <a href="" class="feature_tabs-link">통합관리</a>
+                        </li>
+                        <li class="feature_tabs-item">
+                            <a href="" class="feature_tabs-link">간편입출금</a>
+                        </li>
+                        <li class="feature_tabs-item">
+                            <a href="" class="feature_tabs-link">익스플로러</a>
+                        </li>
+                        <li class="feature_tabs-item">
+                            <a href="" class="feature_tabs-link">탈중앙지갑</a>
+                        </li>
+                    </ul>
+                    <ul class="feature__list">
+                        <li class="feature__item feature__item--active">
+                            <div class="feature__content">
+                                <h4 class="title">한 개의 니모닉으로 여러 개의 <br/>지갑을 통합·관리할 수 있습니다.</h4>
+                                <p class="description">한 번의 클릭으로 손쉽게 지갑 생성<br/>BTC, ETH, FIL, RVN 지원<br/>ERC20 자동 추가 기능</p>
+                            </div>
+                        </li>
+                        <li class="feature__item">
+                            <div class="feature__content">
+                                <h4 class="title">누구나 쉽고 간편하게<br/>암호화폐를 입출금할 수 있습니다.</h4>
+                                <p class="description">주소와 수량만 입력하면 출금 가능 <br/>네트워크 상황에 최적화된  가스 수수료 설정</p>
+                                <p class="description-sub">*코인어스에서는 중개수수료 없이 네트워크 수수료만 지불합니다.</p>
+                            </div>
+                        </li>
+                        <li class="feature__item">
+                            <div class="feature__content">
+                                <h4 class="title">자체 구축한 익스플로러로 <br/>더 빠르고 정확한 정보를 제공합니다.</h4>
+                                <p class="description">국내 최초 익스플로러 런칭 <br/>입/출금 내역의 Pending 상태 제공<br/>입/출금의 성공/실패 결과에 대해 앱 알림 제공<br/>다양한 코인/토큰 정보 제공</p>
+                                <a class="feature__link" href="">
+                                    <span class="text">Block Search 바로가기</span>
+                                    <img src="./assets/media/img/icon_arrow.svg" alt="블록서치 바로가기">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="feature__item">
+                            <div class="feature__content">
+                                <h4 class="title">국내 유일 탈중앙 지갑으로 <br/>해킹으로부터 안심하고 사용하세요.</h4>
+                                <p class="description">고객이 니모닉(개인키)를 직접 관리 <br/>(코인어스 수집 및 접근 불가) <br/>탈중앙화 지갑으로 해킹 위협 및 개인 정보 유출 없음</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="feature__content">
+                                    <h4 class="title">한 개의 니모닉으로 여러 개의 <br/>지갑을 통합·관리할 수 있습니다.</h4>
+                                    <div class="obj">
+                                        <img src="./assets/media/img/obj_feature_s01.png" alt="니모닉 UI">
+                                    </div>
+                                    <p class="description">한 번의 클릭으로 손쉽게 지갑 생성<br/>BTC, ETH, FIL, RVN 지원<br/>ERC20 자동 추가 기능</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feature__content">
+                                    <h4 class="title">누구나 쉽고 간편하게<br/>암호화폐를 입출금할 수 있습니다.</h4>
+                                    <div class="obj">
+                                        <img src="./assets/media/img/obj_feature_s02.png" alt="입출금 UI">
+                                    </div>
+                                    <p class="description">주소와 수량만 입력하면 출금 가능 <br/>네트워크 상황에 최적화된  가스 수수료 설정</p>
+                                    <p class="description-sub">*코인어스에서는 중개수수료 없이 네트워크 수수료만 지불합니다.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feature__content">
+                                    <h4 class="title">자체 구축한 익스플로러로 <br/>더 빠르고 정확한 정보를 제공합니다.</h4>
+                                    <div class="obj">
+                                        <img src="/assets/media/img/obj_feature_s03.png" alt="익스플로러 UI">
+                                    </div>
+                                    <p class="description">국내 최초 익스플로러 런칭 <br/>입/출금 내역의 Pending 상태 제공<br/>입/출금의 성공/실패 결과에 대해 앱 알림 제공<br/>다양한 코인/토큰 정보 제공</p>
+                                    <a class="feature__link" href="">
+                                        <span class="text">Block Search 바로가기</span>
+                                        <img src="./assets/media/img/icon_arrow.svg" alt="블록 서치 바로가기">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feature__content">
+                                    <h4 class="title">국내 유일 탈중앙 지갑으로 <br/>해킹으로부터 안심하고 사용하세요.</h4>
+                                    <div class="obj">
+                                        <img src="./assets/media/img/obj_feature_s04.png" alt="보안 마크">
+                                    </div>
+                                    <p class="description">고객이 니모닉(개인키)를 직접 관리 <br/>(코인어스 수집 및 접근 불가) <br/>탈중앙화 지갑으로 해킹 위협 및 개인 정보 유출 없음</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="feature__mobile">
+                        <div class="feature__obj-list">
+                            <ul class="feature__obj-items">
+                                <li class="feature__obj-item">
+                                    <img src="./assets/media/img/obj_feature_01.png" alt="니모닉 UI">
+                                </li>
+                                <li class="feature__obj-item">
+                                    <img src="./assets/media/img/obj_feature_02.png" alt="입출금 UI">
+                                </li>
+                                <li class="feature__obj-item">
+                                    <img src="./assets/media/img/obj_feature_03.png" alt="익스플로러 UI">
+                                </li>
+                                <li class="feature__obj-item">
+                                    <img src="./assets/media/img/obj_feature_04.png" alt="보안 마크">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end::section-feature-->
+        <!--begin::section-update-->
+        <section class="section section-update">
+            <div class="section__component">
+                <header class="section__header">
+                    <h3 class="title">코인어스는 암호화폐 지갑 서비스를 <br/>위해 꾸준히 개발하고 있습니다.</h3>
+                    <p class="subject">2021.02 기능 안정화 업데이트 완료</p>
+                </header>
+                <div class="section__update">
+                    <article class="update__item">
+                        <img class="update__image" src="./assets/media/img/icon_update_01.svg" alt="">
+                        <span class="update__text">수수료 최적화 개선</span>
+                    </article>
+                    <article class="update__item">
+                        <img class="update__image" src="./assets/media/img/icon_update_02.svg" alt="">
+                        <span class="update__text">거래내역 Pending 추가</span>
+                    </article>
+                    <article class="update__item">
+                        <img class="update__image" src="./assets/media/img/icon_update_03.svg" alt="">
+                        <span class="update__text">입/출금 푸시알림 지원</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--end::section-update-->
+        <!--begin::section-support-->
+        <section class="section section-support">
+            <div class="section__component">
+                <header class="section__header">
+                    <h3 class="title">코인어스에 대해 <br/>더 자세히 알고 싶으신가요?</h3>
+                </header>
+                <div class="support__list">
+                    <article class="support__item support__item-guide">
+                        <a class="support__link" href="">
+                            <img class="support__icon" src="./assets/media/img/icon_support_01.svg" alt"">
+                            <span class="support__text">이용가이드</span>
+                        </a>
+                    </article>
+                    <article class="support__item support__item-faq">
+                        <a class="support__link" href="">
+                            <img class="support__icon" src="./assets/media/img/icon_support_02.svg" alt"">
+                            <span class="support__text">FAQ</span>
+                        </a>
+                    </article>
+                    <article class="support__item support__item-service">
+                        <a class="support__link" href="">
+                            <img class="support__icon" src="./assets/media/img/icon_support_03.svg" alt"">
+                            <span class="support__text">서비스 이용문의</span>
+                        </a>
+                    </article>
+                    <article class="support__item support__item-guide">
+                        <a class="support__link" href="">
+                            <img class="support__icon" src="./assets/media/img/icon_support_04.svg" alt"">
+                            <span class="support__text">사용문의</span>
+                        </a>
+                    </article>
+                </div>
+                <div class="channel__wrapper">
+                    <ul class="channel__list">
+                        <li class="channel__item">
+                            <a class="channel__link" href="">
+                                <img class="channel__icon" src="./assets/media/img/icon_channel_telegram.svg" alt"텔레그램 바로가기">
+                                <span class="channel__text">Telegram</span>
+                            </a>
+                        </li>
+                        <li class="channel__item">
+                            <a class="channel__link" href="">
+                                <img class="channel__icon" src="./assets/media/img/icon_channel_medium.svg" alt"미디엄 바로가기">
+                                <span class="channel__text">Medium(ENG)</span>
+                            </a>
+                        </li>
+                        <li class="channel__item">
+                            <a class="channel__link" href="">
+                                <img class="channel__icon" src="./assets/media/img/icon_channel_blog.svg" alt"네이버 블로그 바로가기">
+                                <span class="channel__text">Naver Blog(KOR)</span>
+                            </a>
+                        </li>
+                        <li class="channel__item">
+                            <a class="channel__link" href="">
+                                <img class="channel__icon" src="./assets/media/img/icon_channel_twitter.svg" alt"트위터 바로가기">
+                                <span class="channel__text">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="channel__item">
+                            <a class="channel__link" href="">
+                                <img class="channel__icon" src="./assets/media/img/icon_channel_facebook.svg" alt"페이스북 바로가기">
+                                <span class="channel__text">Facebook</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--end::section-support-->
+        <!--begin::section-partner-->
+        <section class="section section-partner">
+            <div class="section__component">
+                <ul class="partner__list">
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_infura.svg" alt="Infura">
+                        </a>
+                    </li>
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_conincover.svg" alt="Conin Cover">
+                        </a>
+                    </li>
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_bitgo.svg" alt="BitGo">
+                        </a>
+                    </li>
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_xango.svg" alt="Xangle">
+                        </a>
+                    </li>
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_eea.svg" alt="EnterpriseEthepeumAlliance">
+                        </a>
+                    </li>
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_blockCyphe.svg" alt="Block Cypher">
+                        </a>
+                    </li>
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_idm.svg" alt="IDM">
+                        </a>
+                    </li>
+                    <li class="partner__item">
+                        <a class="partner__link" href="">
+                            <img class="partner__logo" src="./assets/media/img/icon_partner_ipfsk.svg" alt="IPFSK">
+                        </a>
+                    </li>
+                </ul>
+                <div class="partner__list-mobile">
+                    <ul class="partner__list">
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_infura.svg" alt="Infura">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_conincover.svg" alt="Conin Cover">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_bitgo.svg" alt="BitGo">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_xango.svg" alt="Xangle">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_eea.svg" alt="EnterpriseEthepeumAlliance">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_blockCyphe.svg" alt="Block Cypher">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_idm.svg" alt="IDM">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_ipfsk.svg" alt="IPFSK">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="partner__list">
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_infura.svg" alt="Infura">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_conincover.svg" alt="Conin Cover">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_bitgo.svg" alt="BitGo">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_xango.svg" alt="Xangle">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_eea.svg" alt="EnterpriseEthepeumAlliance">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_blockCyphe.svg" alt="Block Cypher">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_idm.svg" alt="IDM">
+                            </a>
+                        </li>
+                        <li class="partner__item">
+                            <a class="partner__link" href="">
+                                <img class="partner__logo" src="./assets/media/img/icon_partner_ipfsk.svg" alt="IPFSK">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--end::section-partner-->
+        <!--begin::section-app-->
+        <section class="section section-app">
+            <div class="section__component">
+                <header class="section__header">
+                    <h3 class="title">지금, 바로 코인어스를 <br/>앱에서 만나보세요</h3>
+                </header>
+                <div class="apps">
+                    <a href="" target="_blank" class="app__link">
+                        <img class="app__logo" src="./assets/media/img/icon_app_google.svg">
+                        <span class="app__text rajdhani">Google Play</span>
+                    </a>
+                    <a href="" target="_blank" class="app__link">
+                        <img class="app__logo" src="./assets/media/img/icon_app_apple.svg">
+                        <span class="app__text rajdhani">App Store</span>
+                    </a>
+                    <a href="" target="_blank" class="app__link app__link--mobile">
+                        <span class="app__text rajdhani">앱 다운로드</span>
+                    </a>
+                </div>
+            </div>
+            <div class="app__bg">
+                <img src="./assets/media/img/bg_app.png" alt="">
+            </div>
+        </section>
+        <!--end::section-app-->
+    </main>
+    <!--end::page-container-->
+    <!--begin::page-notice-->
+    <div class="page-notice">
+        <div class="notice__component">
+            <header class="notice__header">
+                <h2 class="title">공지사항</h2>
+            </header>
+            <div class="notice__content">
+                <ul class="notice__list">
+                    <li class="notice__item">
+                        <a class="notice__link" href="">
+                            <span class="notice__text">(UPDATE) 코인어스 기능 안정화 및 신규 업데이트 안내</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end::page-notice-->
+    <!--begin::page-footer-->
+    <footer class="page-footer">
+        <div class="footer__component">
+            <h1 class="footer__logo">
+                <a href="" class="footer__logo-link">
+                    <img src="./assets/media/img/logo_white.svg" alt="로고">
+                </a>
+            </h1>
+            <div class="footer__contents">
+                <div class="footer__copyright">
+                    <small class="footer__copyright-text rajdhani">© 2021 Copyright Bonotechnologies Inc.</small>
+                </div>
+                <div class="footer__service">
+                    <a href="" class="footer__service-link">
+                        <span class="footer__service-text">개인정보처리 방침</span>
+                    </a>
+                    <a href="" class="footer__service-link">
+                        <span class="footer__service-text">이용약관</span>
+                    </a>
+                </div>
+                <div class="footer__mail">
+                    <a href="" class="footer__mail-link">
+                        <img class="footer__mail-icon" src="./assets/media/img/icon_mail.svg" alt="메일 보내기 아이콘">
+                        <span class="footer__mail-text rajdhani">help@coinus.io</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+
+            </div>
+        </div>
+    </footer>
+    <!--end::page-footer-->
+    <script src="./assets/js/mobile.js"></script>
+    <script src="./assets/js/coinus.js"></script>
+</body>
+</html>

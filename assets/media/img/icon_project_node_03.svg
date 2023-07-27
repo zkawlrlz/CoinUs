@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3D, Shape, Object.13</title>
+    <g id="CoinUs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CoinUs---Project" transform="translate(-1170.000000, -3408.000000)">
+            <g id="Run-Your-Code" transform="translate(0.000000, 3147.000000)">
+                <g id="3D,-Shape,-Object.13" transform="translate(1170.000000, 261.000000)">
+                    <polygon id="Path" points="0 0 40 0 40 40 0 40"></polygon>
+                    <path d="M35,26.665 L35,13.335 C35,12.145 34.3633333,11.045 33.33,10.455 L21.65,3.76666667 C20.6283333,3.18166667 19.3733333,3.18166667 18.3516667,3.76666667 L6.67,10.455 C5.63666667,11.0466667 5,12.145 5,13.335 L5,26.6633333 C5,27.8533333 5.63666667,28.9533333 6.67,29.5433333 L18.35,36.2316667 C19.3716667,36.8166667 20.6266667,36.8166667 21.6483333,36.2316667 L33.3283333,29.5433333 C34.3633333,28.9533333 35,27.855 35,26.665 L35,26.665 Z" id="Path" stroke="#172462" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M19.9992468,21 L19.9992468,20.6774983 C19.9992468,19.6211885 20.630461,19.0494102 21.2631817,18.6100601 C21.8808376,18.1800579 22.5,17.6191854 22.5,16.5846873 C22.5,15.1560205 21.380687,14 20.0007532,14 C18.6208195,14 17.5,15.1544625 17.5,16.5831293" id="Path" stroke="#172462" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M19.9980111,24.7 C19.8320111,24.7 19.6980111,24.834 19.7000111,25 C19.7000111,25.166 19.8340111,25.3 20.0000111,25.3 C20.1660111,25.3 20.3000111,25.166 20.3000111,25 C20.3000111,24.834 20.1680111,24.7 19.9980111,24.7" id="Path" stroke="#172462" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
